@@ -1,0 +1,50 @@
+
+.bg-azure {
+    background-color: azure !important;
+}
+
+header .navbar-brand {
+    font-size: 28px;
+    color: darkblue !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+header .nav-link {
+    font-size: 20px;
+    color: darkblue !important;
+    transition: color 0.3s;
+}
+
+header .nav-link:hover {
+    color: cornflowerblue !important;
+}
+
+@media (min-width: 992px) {
+    .dropdown-menu {
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        right: auto !important;
+    }
+}
+
+.dropdown-menu {
+    background-color: azure;
+    border: 1px solid #b2e0e0;
+}
+
+.dropdown-item {
+    color: darkblue;
+    font-size: 18px;
+}
+
+.dropdown-item:hover {
+    background-color: #d8f3f3;
+    color: cornflowerblue;
+}
+footer{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
